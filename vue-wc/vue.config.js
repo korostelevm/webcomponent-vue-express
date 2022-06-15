@@ -1,5 +1,5 @@
 module.exports = {
-    outputDir: 'wc',
+    outputDir: '../public',
     css: { extract: false },
     devServer: {
         inline:true,

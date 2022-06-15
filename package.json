@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "nodemon --watch . server.js",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd vue-wc && npm run build"
   },
   "repository": {
     "type": "git",

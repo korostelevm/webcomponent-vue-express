@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target wc --inline-vue --name vue-wc      ",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -16,7 +16,23 @@
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-plugin-eslint": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^3.6.0",
+    "eslint-plugin-vue": "^9.1.1",
     "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
   },
   "browserslist": [
     "> 1%",
