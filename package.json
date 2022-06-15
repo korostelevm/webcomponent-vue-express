@@ -7,7 +7,7 @@
     "serve": "nodemon --watch . app.js",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd vue-wc && npm ci && npm run build && cd .. && rm -rf vue-wc && echo env | sort"
+    "build": "cd vue-wc && npm ci && npm run build && cd .. && rm -rf vue-wc && env | sort"
   },
   "repository": {
     "type": "git",
