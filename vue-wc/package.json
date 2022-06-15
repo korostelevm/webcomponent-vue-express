@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target wc --inline-vue --name vue-wc      ",
+    "build": "npx vue-cli-service build --target wc --inline-vue --name vue-wcs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
