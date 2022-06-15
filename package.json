@@ -4,11 +4,10 @@
   "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
   "main": "server.js",
   "scripts": {
-    "install":"npm ci --production && cd vue-wc && npm install",
     "serve": "nodemon --watch . server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd vue-wc && npm run build"
+    "build": "cd vue-wc && npm ci && npm run build"
   },
   "repository": {
     "type": "git",
